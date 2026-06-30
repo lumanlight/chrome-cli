@@ -1,0 +1,11 @@
+{
+  "name": "chrome-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for controlling Chrome/Chromium browser via MCP",
+  "type": "module",
+  "bin": {
+    "chrome-cli": "./bin/chrome-cli.js"
+  },
+  "files": ["bin/", "src/"],
+  "license": "MIT"
+}
