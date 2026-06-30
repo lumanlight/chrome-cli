@@ -1,10 +1,8 @@
 # chrome-cli
 
+> **[中文文档](README.zh.md)**
+
 Control Chrome/Chromium browser from the command line via Chrome DevTools Protocol (CDP).
-
-**chrome-cli** 是一个命令行工具，通过 Chrome DevTools Protocol (CDP) 控制 Chrome/Chromium 浏览器。它使用 Unix socket 守护进程连接 `chrome-devtools-mcp`，支持导航、DOM 交互、截图、JavaScript 执行等操作。
-
-> 特别适用于连接**已有浏览器实例**（保留登录态、Cookie、扩展），无需每次都启动新的无痕浏览器。
 
 `chrome-cli` is a lightweight CLI daemon that bridges a Unix socket to an MCP Server, giving you full CDP control over a browser — navigation, DOM interaction, screenshots, JavaScript execution, and more.
 
